@@ -1,7 +1,9 @@
 text = input("matn kiriting: ")
 a = "..."
 b = "."
-text = text.replace(a,".")
+c = "?"
+d = "!"
+text = text.replace(a,".").replace(c,".").replace(d,".")
 total = 0
 for i in text:
     if b == i:
